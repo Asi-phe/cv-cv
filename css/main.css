@@ -84,3 +84,8 @@ h3{
   .d-block{
     margin-left:20%;
   }
+
+  .column{
+    margin: 20px;
+    scroll-padding-top: 10%;
+  }
