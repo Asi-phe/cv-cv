@@ -93,3 +93,7 @@ h3{
     margin: 20px;
     scroll-padding-top: 10%;
   }
+
+  .navbar-dark .navbar-nav .nav-link{
+    color: #4285F4;
+  }
