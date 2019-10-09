@@ -23,8 +23,12 @@ h1{
 }
 
 .intro-2 {
-    background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+    background-color:whitesmoke;
     background-size: cover;
+}
+
+.heading{
+  align-content: center;
 }
 
 .navbar {
