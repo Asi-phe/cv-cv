@@ -111,6 +111,12 @@ h3{
     background-size: cover;
   }
 
+        
+  .collapse{
+    background-color:grey;
+  }
+
+
   .container{
     background-color: azure;
   }
