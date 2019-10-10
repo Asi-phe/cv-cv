@@ -1,0 +1,275 @@
+ 
+ 
+
+
+h1{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.who-we-are{
+  margin:10px;
+  padding:10px;
+}
+.img-fluid{
+  margin:15px;
+  padding:15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+
+
+.heading{
+  align-content: center;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+.container{
+  align-self: center;
+}
+
+h3{
+  margin: 20px;
+  padding: 20px;
+  text-align:center;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Hind', sans-serif;
+
+}
+
+.carouselslide > .item > img{
+  margin:auto;
+  }
+
+  h4{
+    margin: 15px;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Hind', sans-serif;
+  }
+
+  .fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .carousel-item{
+    margin-left:20%;
+  }
+  .d-block{
+    margin-left:20%;
+  }
+
+  .column{
+    margin: 20px;
+    scroll-padding-top: 10%;
+  }
+
+  .navbar-dark .navbar-nav .nav-link{
+    color: black;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1482440308425-276ad0f28b19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    
+    margin-top: -15px;
+    width:100%;
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #school{
+    height:100px;
+    
+  }
+  .fluid-container{
+    background-color:white;
+  }
+#skills{
+  align:center;
+}
+        
+  .collapse{
+    margin:0;
+    padding:0;
+    background-color:grey;
+    width:100%;
+  }
+
+
+  .container{
+    background-color: #E9ECEF;
+    align:center;
+  }
+
+  .navbar{
+    width:100%;
+  }
+  .img-fluid{
+    height:300px;
+    align:center;
+
+  }
+
+  .top-nav-collapse{
+    background-color:grey;
+  }
+  .dvi.container{
+    background-color:white;
+  }
+  .fluid-container{
+    background-color:#E9ECEF;
+  }
+  .text-center{
+    text-align:center;
+  }
+  .h{
+    text-align:center;
+  }
+  .heading{
+    text-align:center;
+  }
